@@ -2,14 +2,13 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<!--<meta http-equiv="Content-Type" content="application/wasm">-->
 		<title>Was test</title>
 	</head>
 	<body>
 		<h1>Was test</h1>
-		<p>some text</p>
+		<p>Check console for a message</p>
 		
-		<script content="application/wasm">
+		<script>
 			var memory = new  WebAssembly.Memory({initial:1});
 			
 			function consoleLogString(offset, length) {
