@@ -20,3 +20,5 @@ View **develop** index [here](https://htmlpreview.github.io/?https://github.com/
 
 **WebAssembly text format** (`.wat`) converted to **WebAssembly binary format** (`.wasm`) using [WebAssembly Binary Toolkit](https://github.com/webassembly/wabt).
 
+For now, I'm using [an online demo](https://webassembly.github.io/wabt/demo/wat2wasm/).
+
