@@ -4,10 +4,6 @@
 
 *Testing web assembly*
 
-General order:
-
-wat -> wabt -> wasm
-
 
 ## Usage
 
@@ -27,9 +23,21 @@ Some sort of [HTTP server](https://en.wikipedia.org/wiki/HTTP_server) has to be 
 1. Open your favorite browser and go to `localhost:8000`.
 
 
-## Notes
+## Development
+
+General order: wat -> wabt -> wasm
 
 **WebAssembly text format** (`.wat`) converted to **WebAssembly binary format** (`.wasm`) using [WebAssembly Binary Toolkit](https://github.com/webassembly/wabt).
 
-For now, I'm using [an online demo](https://webassembly.github.io/wabt/demo/wat2wasm/).
+For now, I'm using [an online demo](https://webassembly.github.io/wabt/demo/wat2wasm/). There is a button `Download` on upper-left panel for downloading the binary `.wasm` file.
 
+Don't just copy-paste resulting binary data to a text file - it won't work (firstly, the magic number won't match).
+
+You can check the binary with a binary/hex editor. I'm using a free open-sorce hex editor [Frhed](https://frhed.sourceforge.net/en/) (portable - doesn't need to be installed).
+
+
+## Notes
+
+Free to use and modify for whatever purposes. No copyrights apply.
+
+*Work in progress, expect changes...*
