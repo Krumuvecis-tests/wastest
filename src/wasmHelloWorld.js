@@ -15,6 +15,6 @@ var importObject = {
 	}
 };
 
-WebAssembly.instantiateStreaming(fetch('wastest.wasm'), importObject).then(obj => {
+WebAssembly.instantiateStreaming(fetch('../bin/wastest.wasm'), importObject).then(obj => {
 	obj.instance.exports.helloWorld();
 });
